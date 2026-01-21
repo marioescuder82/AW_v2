@@ -54,7 +54,7 @@ En este paso descargamos la última versión oficial de WordPress en español y 
 
 ```bash
 cd /var/www/html
-sudo wget [https://es.wordpress.org/latest-es_ES.tar.gz](https://es.wordpress.org/latest-es_ES.tar.gz)
+sudo wget https://es.wordpress.org/latest-es_ES.tar.gz
 sudo tar -xvf latest-es_ES.tar.gz
 sudo mv wordpress/* .
 sudo rm -rf wordpress latest-es_ES.tar.gz index.html
