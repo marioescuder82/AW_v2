@@ -8,7 +8,7 @@ Este manual detalla los pasos para realizar una instalación mínima pero plenam
 ## 1. Instalación del Stack LAMP
 Actualizamos el sistema e instalamos Apache, MySQL y PHP con las extensiones necesarias para que WordPress pueda procesar imágenes y datos.
 
-``````bash
+```bash
 sudo apt update
 sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql php-gd php-xml php-mbstring -y
 
@@ -16,5 +16,5 @@ sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql php-gd ph
 
 Para que WordPress pueda generar URLs "limpias" o "amigables" (ej: `misitio.com/contacto` en lugar de `index.php?id=123`), debemos activar el módulo de reescritura de Apache. Sin este paso, la web solo funcionará en su página de inicio.
 
-``````bash
+```bash
 sudo a2enmod rewrite
