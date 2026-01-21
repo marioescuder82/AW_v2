@@ -59,7 +59,7 @@ Una vez que el servidor Ubuntu tiene el stack LAMP y los permisos configurados, 
 3.  **Configuración de la base de datos:** Introduce los credenciales que creamos en el Paso 2:
     * **Nombre de la base de datos:** `wp_datos`
     * **Nombre de usuario:** `alumno`
-    * **Contraseña:** `SMR_2026` (o la que definieras en MySQL).
+    * **Contraseña:** `password` (o la que definieras en MySQL).
     * **Servidor de la base de datos:** `localhost`
     * **Prefijo de tabla:** `wp_`
 
@@ -68,19 +68,3 @@ Una vez que el servidor Ubuntu tiene el stack LAMP y los permisos configurados, 
 4.  **Información del sitio:** Define el título de tu web y crea tu cuenta de **Administrador de WordPress** (estos datos son para entrar al panel `/wp-admin`, no los confundas con los de la base de datos).
 
 ---
-
-## 5. Verificación y Checklist Final
-
-Para asegurar que la instalación es plenamente funcional y cumple con los estándares de **Sistemas Microinformáticos y Redes**, el alumno debe comprobar:
-
-* [ ] **Acceso Web:** ¿Carga el sitio al poner la IP? Si no carga, comprueba el **Security Group** de AWS (puerto 80 abierto).
-* [ ] **Permisos de Escritura:** Intenta subir una imagen en `Medios > Añadir nuevo`. Si da error, revisa el comando `chown -R www-data:www-data`.
-* [ ] **Enlaces Permanentes (Crítico):** Ve a `Ajustes > Enlaces permanentes`, selecciona **"Nombre de la entrada"** y guarda cambios. Navega por la web:
-    * Si las páginas funcionan: El módulo `rewrite` y el `AllowOverride All` están **correctos**.
-    * Si da Error 404: Revisa el archivo `000-default.conf` (Paso 4).
-* [ ] **Seguridad:** ¿Has borrado el archivo `index.html` original de Apache para que no interfiera?
-
-
-
----
-**Resultado esperado:** Al finalizar las 9 horas, el alumno debe disponer de un sitio WordPress donde pueda instalar temas (como Astra o GeneratePress) y crear contenido sin encontrar errores de permisos o de rutas.
