@@ -38,8 +38,6 @@ Un **Tema** es una colección de archivos que definen la estructura visual. En e
 
 
 
-> **Nota técnica (SMR):** Si al subir el archivo recibes un error de "El archivo excede el tamaño máximo", recuerda que el límite se configura en el servidor Ubuntu editando el archivo `/etc/php/8.x/apache2/php.ini` (parámetros `upload_max_filesize` y `post_max_size`).
-
 ---
 
 ## 3. Personalización del Sitio
