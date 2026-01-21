@@ -69,7 +69,7 @@ Una vez que el servidor Ubuntu tiene el stack LAMP y los permisos configurados, 
 
 ---
 
-## 6. Verificación y Checklist Final
+## 5. Verificación y Checklist Final
 
 Para asegurar que la instalación es plenamente funcional y cumple con los estándares de **Sistemas Microinformáticos y Redes**, el alumno debe comprobar:
 
