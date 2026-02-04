@@ -4,5 +4,6 @@ Asignatura Aplicaciones Web de 2º curso del ciclo de grado medio Sistemas Micro
 - [Instalación de Wordpress](wordpress.md)
 - [Primeros pasos en Wordpress](primeros_pasos.md)
 - [Practica obligatoria](practica.md)
+- [Siguientes pasos](wordpress - avanzado.md)
 
 
